@@ -96,3 +96,9 @@
   color: #979797;
   cursor: not-allowed;
 }
+
+.error {
+  color: rgb(222, 28, 28);
+  margin-top: 0.25rem;
+  font-size: 1rem;
+}
