@@ -2,6 +2,7 @@ import Image from 'next/image';
 import classes from './page.module.css';
 import { getMeal } from '@/lib/meals';
 import { notFound } from 'next/navigation';
+import { S3_BASE_URL } from '@/services/aws/s3';
 
 export const generateMetadata = async ({ params }) => {
     const meal = getMeal(params.mealSlug);
@@ -28,7 +29,7 @@ const MealDetailsPage = ({ params }) => {
         <>
             <header className={classes.header}>
                 <div className={classes.image}>
-                    <Image src={meal.image} fill alt='Creator image' />
+                    <Image src={`${S3_BASE_URL}/${meal.image}`} fill alt={meal.title} />
                 </div>
                 <div className={classes.headerText}>
                     <h1>{meal.title}</h1>
