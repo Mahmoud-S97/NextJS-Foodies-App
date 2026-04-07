@@ -75,10 +75,11 @@ This project demonstrates real-world full-stack development using modern web tec
 
 Create a `.env.local` file in the root directory:
 
+```env
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_S3_BUCKET_NAME=your_bucket_name
-
+```
 
 ---
 
