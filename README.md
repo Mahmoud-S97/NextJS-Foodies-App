@@ -32,7 +32,7 @@ This project demonstrates real-world full-stack development using modern web tec
       <img src="./assets/demo/screenshot-1.png" width="1024" />
     </td>
     <td>
-      <img src="./assets/demo/screenshot-1.png" width="1024" />
+      <img src="./assets/demo/screenshot-2.png" width="1024" />
     </td>
     <td>
       <img src="./assets/demo/screenshot-3.png" width="1024" />
@@ -87,6 +87,8 @@ AWS_S3_BUCKET_NAME=your_bucket_name
 ```bash
 npm install
 npm run dev
+
+```
 
 Open your browser at:
 http://localhost:3000
